@@ -1,0 +1,40 @@
+{
+  "name": "hpolthof/laravel-package",
+  "description": "A package boilerplate for Laravel",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Paul Olthof",
+      "email": "hi@olthof.tech"
+    }
+  ],
+
+
+  "require": {
+    "laravel/framework": "^5.8"
+  },
+
+  "require-dev": {
+    "orchestra/testbench": "^3.8"
+  },
+
+  "autoload": {
+    "psr-4": {
+      "Hpolthof\\Package\\": "src/"
+    }
+  },
+
+  "autoload-dev": {
+    "psr-4": {
+      "Hpolthof\\Package\\Tests\\": "tests/"
+    }
+  },
+
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Hpolthof\\Package\\Providers\\ServiceProvider"
+      ]
+    }
+  }
+}

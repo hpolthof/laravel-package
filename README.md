@@ -11,7 +11,7 @@ composer create-project --prefer-dist hpolthof/laravel-package my-package
 This will build the project, now enter the project directory and run:
 
 ```bash
-php install.php
+php install.php install
 ```
 
 You will now be prompted to set the name and namespace of the package. 
